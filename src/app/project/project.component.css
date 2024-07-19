@@ -58,7 +58,7 @@ nav {
     box-shadow: 0 0 0 0;
 }
 
-.form-control:focus~label {
+.form-control:focus label {
     color: #1ABC9C;
     font-size: larger;
 }
