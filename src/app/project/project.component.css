@@ -1,0 +1,78 @@
+/* global style */
+:root {
+    --mainColor: #1ABC9C;
+}
+
+nav {
+    background-color: #2C3E50;
+}
+
+.home {
+    background-color: #1ABC9C;
+}
+
+.line {
+    width: 80px;
+    height: 5px;
+    margin: 0 10px;
+    background-color: #2C3E50;
+}
+
+.about {
+    background-color: #1abc9cd5;
+}
+
+.layer {
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.item button:hover .layer {
+    opacity: 1;
+}
+
+#layerContainer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header,
+.contact {
+    color: #2C3E50;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form-control:focus {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: var(--bs-border-bg);
+    border-color: var(--bs-border-color);
+    box-shadow: 0 0 0 0;
+}
+
+.form-control:focus~label {
+    color: #1ABC9C;
+    font-size: larger;
+}
+
+footer {
+    background-color: #2C3E50;
+}
+
+.copyright {
+    background-color: #1A252F;
+}
+
+.active {
+    font-weight: 600;
+    background-color: #1ABC9C;
+    border-radius: .375rem;
+}
